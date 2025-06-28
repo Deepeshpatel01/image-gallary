@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Slide-In Gallery</title>
+  >
+</head>
+<body>
+
+  <h1>Responsive Slide-In Gallery</h1>
+
+  <nav>
+    <button onclick="changeCategory('nature')">Nature</button>
+    <button onclick="changeCategory('people')">People</button>
+    <button onclick="changeCategory('animals')">Animals</button>
+  </nav>
+
+  <div class="gallery-container">
+    <button id="prevBtn" class="nav-btn">&#8592;</button>
+
+    <div class="slider">
+      <img id="gallery-pic" src="" alt="gallery-pic" />
+    </div>
+
+    <button id="nextBtn" class="nav-btn">&#8594;</button>
+  </div>
+   <script src="script.js"></script>
+</body>
+</html>
